@@ -1,12 +1,13 @@
-# nextjs-airtable-starter
+# Next.js + Airtable Starter Project
 
-Boilerplate Next.js + Airtable project
+A boilerplate Next.js + Airtable project
 
 ## Purpose
 
 I made this project with the purpose of getting acqauinted with Next.js and
 using the Airtable API. This project will get you some basics in place with a
-working example once you have created an [Airtable Base](#airtable-base)
+working example once you have created an
+[Airtable Base](#setup-your-data-store).
 
 ## Getting started
 
@@ -16,7 +17,7 @@ Start a new Airtable 'Base' from a template called
 ['Project Tracker'](https://airtable.com/templates/featured/expZJgLA5YjprHz55/project-tracker)
 by following the link (if you do not already have an Airtable account, creating
 your free Airtable account will be included in the creation flow.. fricken
-beautiful!)
+beautiful!).
 
 ### Get the starter project code
 
@@ -26,7 +27,7 @@ beautiful!)
     git clone nextjs-airtable-starter
     ```
 
-2.  Install libraries
+2.  Install libraries:
 
     ```bash
     npm install
@@ -52,13 +53,18 @@ beautiful!)
    [Airtable API documentation](https://airtable.com/api) under 'RATE LIMITS' or
    'AUTHENTICATION'.
 
-### Test drive the app
+### Test drive the app locally
 
 1.  Run the following in terminal:
 
     ```bash
     npm run dev
     ```
+
+### Deployment
+
+That part is not covered here and is up to your discretion. Might I suggest
+[Vercel](https://vercel.com/signup)?
 
 ## Test included
 
