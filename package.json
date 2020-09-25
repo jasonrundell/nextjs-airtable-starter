@@ -1,0 +1,48 @@
+{
+  "name": "nextjs-airtable-starter",
+  "version": "1.0.0",
+  "author": "Jason Rundell <jason.rundell@gmail.com>",
+  "private": false,
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "jest"
+  },
+  "husky": {
+    "hooks": {
+      "pre-push": "npm run test"
+    }
+  },
+  "dependencies": {
+    "airtable": "^0.10.0",
+    "next": "9.5.3",
+    "react": "16.13.1",
+    "react-dom": "16.13.1"
+  },
+  "devDependencies": {
+    "@testing-library/dom": "^7.24.2",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.0.4",
+    "babel-jest": "^26.3.0",
+    "husky": "^4.3.0",
+    "jest": "^26.4.2",
+    "jest-fetch-mock": "^3.0.3"
+  },
+  "keywords": [
+    "nextjs",
+    "airtable",
+    "starter",
+    "demo",
+    "example",
+    "jest",
+    "testing",
+    "tests",
+    "jest-fetch-mock"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jasonrundell/nextjs-airtable-starter"
+  }
+}
