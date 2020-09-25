@@ -29,36 +29,32 @@ beautiful!)
 2.  Install libraries
 
     ```bash
-    yarn
-    ```
-
-    or
-
-    ```bash
     npm install
     ```
 
 ### Setup environment variables for Airtable
 
-1. Create a `.env.local` file in your project root (or rename the included
-   example `.env.local.example` to`.env.local`)
+1. Create a `.env.local` file in your project root or rename the included
+   example `.env.local.example` to`.env.local`
 
-2. Open `.env.local` in your editor of choice and add your Airtable credentials
+2. Open `.env.local` in your editor of choice and add your Airtable credentials.
+   It'll look something like this:
 
    ```bash
    AIRTABLE_API_KEY=key**************
    AIRTABLE_BASE_ID=app**************
    ```
 
+   Visit your [Airtable Account page](https://airtable.com/account) to get your
+   API key.
+
+   The Airtable Base ID can be found in the
+   [Airtable API documentation](https://airtable.com/api) under 'RATE LIMITS' or
+   'AUTHENTICATION'.
+
 ### Test drive the app
 
 1.  Run the following in terminal:
-
-    ```bash
-    yarn run dev
-    ```
-
-    or
 
     ```bash
     npm run dev
@@ -66,13 +62,16 @@ beautiful!)
 
 ## Test included
 
-```bash
-npm run test
-```
+1.  Run the following in terminal:
 
-Will run a Jest test on the app
-[jest-fetch-mock](https://www.npmjs.com/package/jest-fetch-mock) is included to
-mock the fetch call to Airtable)
+    ```bash
+    npm run test
+    ```
+
+    This will run a Jest test on the app.
+
+    [jest-fetch-mock](https://www.npmjs.com/package/jest-fetch-mock) is included
+    to mock the fetch call to Airtable.
 
 ## Thanks to the following resources/authors
 
