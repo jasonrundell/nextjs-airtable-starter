@@ -9,7 +9,17 @@ using the Airtable API. This project will get you some basics in place with a
 working example once you have created an
 [Airtable Base](#setup-your-data-store).
 
+## View demo
+
+[https://nextjs-airtable-starter.vercel.app/](https://nextjs-airtable-starter.vercel.app/)
+
 ## Getting started
+
+### Quick deploy
+
+Deploy with Vercel 
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fjasonrundell%2Fnextjs-airtable-starter%2Ftree%2Fmaster)
 
 ### Setup your data store
 
