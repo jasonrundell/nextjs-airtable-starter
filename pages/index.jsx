@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Airtable from 'airtable'
 
 // Components
-import Project from '../components/Project'
+import UnorderedList from '../components/UnorderedList'
 
 export async function getStaticProps() {
   const airtable = new Airtable({
@@ -47,16 +47,9 @@ export default function Home({ projects }) {
           Get started by editing <code>pages/index.js</code>
         </p>
 
-        <div>
-          {projects.map((product) => (
-            <Project
-              key={product.name}
-              name={product.name}
-              category={product.category}
-              complete={product.complete}
-            />
-          ))}
-        </div>
+        <p>Here's a list of projects from Airtable!</p>
+
+        <UnorderedList list={projects} />
 
         <div className="grid">
           <a href="https://nextjs.org/docs" className="card">

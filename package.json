@@ -1,6 +1,6 @@
 {
   "name": "nextjs-airtable-starter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Jason Rundell <jason.rundell@gmail.com>",
   "private": false,
   "license": "MIT",
@@ -28,7 +28,8 @@
     "babel-jest": "^26.3.0",
     "husky": "^4.3.0",
     "jest": "^26.4.2",
-    "jest-fetch-mock": "^3.0.3"
+    "jest-fetch-mock": "^3.0.3",
+    "sass": "^1.26.11"
   },
   "keywords": [
     "nextjs",
